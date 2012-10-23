@@ -1,0 +1,38 @@
+.remove-img > div{
+	display: inline-block;
+}
+
+.remove-img:hover > div > .trash-cap {
+	transform: rotate(-80deg);
+	-ms-transform: rotate(-80deg);
+	-webkit-transform: rotate(-80deg);
+	-o-transform: rotate(-80deg);
+	-moz-transform: rotate(-80deg);
+}
+
+.remove-img > div > .trash-cap {
+	transform-origin: 0 6;
+	-ms-transform-origin: 0 6;
+	-webkit-transform-origin: 0 6;
+	-o-transform-origin: 0 6;
+	-moz-transform-origin: 0 6;
+
+	transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	
+	background: url('trash.png') no-repeat;
+	margin-bottom: -2px;
+	height: 6px;
+	width: 13px;
+}
+
+.remove-img > div > .trash-body {
+	background: url('trash.png') no-repeat;
+	background-position: 0 -4px;
+	margin-top: -1px; 
+	height: 11px;
+	width: 13px;
+}
