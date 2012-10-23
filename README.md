@@ -2,20 +2,40 @@ Google Remove (Animated Button)
 ===============================
 
 ## Description
---------------
 It's simply add trash image inside perticular element
 and open the cap of trash when your mouse pointer will be on that element
 
 
 ## How to use
--------------
 It's very simple to use
-just include it's script file and css file to your code
-and give class 'remove-img' to the element where you need this animated image
-and then call function googleRemoveInit() with/without options (make sure that this function called after all contents loaded)
+
++ **Step1**
+	Download this code 
+	and include script file and css file
+
++ **Step2**
+	apply class 'remove-img' to expected element
+
++ **Step3**
+	initialize remove animation with functin googleRemoveInit(*options*)
+	or
+	without option as googleRemoveInit()
+
+----------------------------------------
+
+### Options
+it must be a JSON object with the following keys
+
++ position
+	Position show where it should be appear [ before/after ]
+	by default it takes position 'before'
+
++ open 
+	Open shows how much cap of trash will be open in terms of degree
+	so you are allowd to put as numarical value or numarical + 'deg'
+
 
 
 ## Requierment
---------------
 Jquery is requered for that
 and make sure that this script file will be after jquery file (bcoz it's using jquery)
