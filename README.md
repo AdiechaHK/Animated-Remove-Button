@@ -34,7 +34,10 @@ it must be a JSON object with the following keys
 	Open shows how much cap of trash will be open in terms of degree
 	so you are allowd to put as numarical value or numarical + 'deg'
 
+----------------------------------------
 
+### Live Demo
+[Demo](http://championhk.comze.com/Animated-Remove-Button/)
 
 ## Requierment
 Jquery is requered for that
