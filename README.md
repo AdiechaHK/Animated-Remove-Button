@@ -1,5 +1,5 @@
-Google Remove (Animated Button)
-===============================
+Animated Remove Button ( Inspired From Google )
+===============================================
 
 ## Description
 It's simply add trash image inside perticular element
